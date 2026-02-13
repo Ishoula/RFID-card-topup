@@ -45,4 +45,4 @@ def handle_topup():
     return jsonify({"status": "Command sent to device"})
 
 if __name__ == '__main__':
-    socketio.run(app, host='0.0.0.0', port=2727, allow_unsafe_werkzeug=True)
+    socketio.run(app, host='0.0.0.0', port=9233, allow_unsafe_werkzeug=True)
